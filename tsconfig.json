@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "module": "es6",
+      "target": "es6",
+      "lib": ["es6", "dom"],
+      "sourceMap": true,
+      "allowJs": false,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "rootDirs": ["src", "stories"],
+      "baseUrl": "src",
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "skipLibCheck": true,
+      "plugins": [
+        {
+          "name": "typescript-styled-plugin"
+        }
+      ]
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "www"
+    ]
+}

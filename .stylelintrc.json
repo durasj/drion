@@ -1,0 +1,20 @@
+{
+    "processors": ["stylelint-processor-styled-components"],
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-rational-order",
+        "stylelint-config-styled-components"
+    ],
+    "rules": {
+        "indentation": 4,
+        "color-hex-length": "long",
+        "declaration-block-no-redundant-longhand-properties": true,
+        "declaration-empty-line-before": null,
+        "shorthand-property-no-redundant-values": true,
+        "declaration-no-important": true,
+        "number-leading-zero": "never",
+        "string-quotes": "double",
+        "selector-max-universal": 0,
+        "order/order": ["custom-properties", "declarations", "rules", "at-rules"]
+    }
+}

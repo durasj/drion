@@ -1,0 +1,11 @@
+{
+  "appId": "me.duras.drion",
+  "appName": "Drion",
+  "bundledWebRuntime": true,
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000
+    }
+  }
+}
